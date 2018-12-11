@@ -19,6 +19,7 @@ public class EmployeeController
 	public String getAllEmployees(Model model)
 	{
 		//Sample code
+		//Update the class 
 		model.addAttribute("employees", manager.getAllEmployees());
 		return "employeesListDisplay";
 
