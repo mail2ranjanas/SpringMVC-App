@@ -24,7 +24,7 @@ public class EmployeeController
 
 		
 		model.addAttribute("employees", manager.getAllEmployees());
-		return "employeesListDisplay";
+		return "employeesListDisplay2";
 
 	}
 }
